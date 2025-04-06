@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  cache:
+    type: redis
+  jackson:
+    serialization:
+      INDENT_OUTPUT: true
+  data:
+    redis:
+      host: localhost
+      port: 6379
+
